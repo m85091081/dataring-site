@@ -5,63 +5,63 @@
 	flex-direction: column;
 }
 
-.grid-16-1 {
+.grid1 {
 	flex:1;
 }
 
-.grid-16-2 {
+.grid2 {
 	flex:2;
 }
 
-.grid-16-3 {
+.grid3 {
 	flex:3;
 }
 
-.grid-16-4 {
+.grid4 {
 	flex:4;
 }
 
-.grid-16-5 {
+.grid5 {
 	flex:5;
 }
 
-.grid-16-6 {
+.grid6 {
 	flex:6;
 }
 
-.grid-16-7 {
+.grid7 {
 	flex:7;
 }
 
-.grid-16-8 {
+.grid8 {
 	flex:8;
 }
 
-.grid-16-9 {
+.grid9 {
 	flex:9;
 }
 
-.grid-16-10 {
+.grid10 {
 	flex:10;
 }
 
-.grid-16-11 {
+.grid11 {
 	flex:11;
 }
 
-.grid-16-12 {
+.grid12 {
 	flex:12;
 }
 
-.grid-16-13 {
+.grid13 {
 	flex:13;
 }
 
-.grid-16-14 {
+.grid14 {
 	flex:14;
 }
 
-.grid-16-15 {
+.grid15 {
 	flex:15;
 }
 

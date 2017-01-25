@@ -5,6 +5,7 @@ body {
 	min-height: 100%;
 }
 #app {
+	overflow: hidden;
 	height: 100%;
 }
 
@@ -20,4 +21,8 @@ body {
 }
 .wh-back {
 	background-color:#F3F3F3;
+}
+
+.menu {
+height:56px;
 }
