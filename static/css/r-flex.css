@@ -2,82 +2,66 @@
 	display: flex;
 }
 .flex-col {
-	display: flex;
 	flex-direction: column;
 }
 
-.flex-16-1 {
-	display: flex;
+.gird-16-1 {
 	flex:1;
 }
 
-.flex-16-2 {
-	display: flex;
+.gird-16-2 {
 	flex:2;
 }
 
-.flex-16-3 {
-	display: flex;
+.gird-16-3 {
 	flex:3;
 }
 
-.flex-16-4 {
-	display: flex;
+.gird-16-4 {
 	flex:4;
 }
 
-.flex-16-5 {
-	display: flex;
+.gird-16-5 {
 	flex:5;
 }
 
-.flex-16-6 {
-	display: flex;
+.gird-16-6 {
 	flex:6;
 }
 
-.flex-16-7 {
-	display: flex;
+.gird-16-7 {
 	flex:7;
 }
 
-.flex-16-8 {
-	display: flex;
+.gird-16-8 {
 	flex:8;
 }
 
-.flex-16-9 {
-	display: flex;
+.gird-16-9 {
 	flex:9;
 }
 
-.flex-16-10 {
-	display: flex;
+.gird-16-10 {
 	flex:10;
 }
 
-.flex-16-11 {
-	display: flex;
+.gird-16-11 {
 	flex:11;
 }
 
-.flex-16-12 {
-	display: flex;
+.gird-16-12 {
 	flex:12;
 }
 
-.flex-16-13 {
-	display: flex;
+.gird-16-13 {
 	flex:13;
 }
 
-.flex-16-14 {
-	display: flex;
+.gird-16-14 {
 	flex:14;
 }
 
-.flex-16-15 {
-	display: flex;
+.gird-16-15 {
 	flex:15;
 }
 
