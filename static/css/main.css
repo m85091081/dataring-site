@@ -1,0 +1,23 @@
+html {
+	height:100%;
+}
+body {
+	min-height: 100%;
+}
+#app {
+	height: 100%;
+}
+
+.fullheight{
+	height:100%;
+}
+.np{
+	padding:0px !important;
+	margin:0px !important;
+}
+.bk-back {
+	background-color:#F9F9F9;
+}
+.wh-back {
+	background-color:#F3F3F3;
+}

@@ -1,0 +1,83 @@
+.flex {
+	display: flex;
+}
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-16-1 {
+	display: flex;
+	flex:1;
+}
+
+.flex-16-2 {
+	display: flex;
+	flex:2;
+}
+
+.flex-16-3 {
+	display: flex;
+	flex:3;
+}
+
+.flex-16-4 {
+	display: flex;
+	flex:4;
+}
+
+.flex-16-5 {
+	display: flex;
+	flex:5;
+}
+
+.flex-16-6 {
+	display: flex;
+	flex:6;
+}
+
+.flex-16-7 {
+	display: flex;
+	flex:7;
+}
+
+.flex-16-8 {
+	display: flex;
+	flex:8;
+}
+
+.flex-16-9 {
+	display: flex;
+	flex:9;
+}
+
+.flex-16-10 {
+	display: flex;
+	flex:10;
+}
+
+.flex-16-11 {
+	display: flex;
+	flex:11;
+}
+
+.flex-16-12 {
+	display: flex;
+	flex:12;
+}
+
+.flex-16-13 {
+	display: flex;
+	flex:13;
+}
+
+.flex-16-14 {
+	display: flex;
+	flex:14;
+}
+
+.flex-16-15 {
+	display: flex;
+	flex:15;
+}
+
