@@ -42,3 +42,5 @@ jspm_packages
 .gitignore~
 *.js~
 *.css~
+*.swp
+*.swo

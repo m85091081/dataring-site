@@ -1,10 +1,18 @@
+.fcenter {
+    align-items:center;
+}
 .flex {
 	display: flex;
 }
 .flex-col {
 	flex-direction: column;
 }
-
+.fbase {
+align-items:baseline;
+}
+.fstart {
+align-items:flex-start;
+}
 .grid1 {
 	flex:1;
 }
@@ -63,5 +71,9 @@
 
 .grid15 {
 	flex:15;
+}
+
+.grid25 {
+	flex:25;
 }
 

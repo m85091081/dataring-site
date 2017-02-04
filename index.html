@@ -9,66 +9,120 @@
 		<link rel="stylesheet" href="static/css/r-flex.css">
 	</head>
 	<body>
+		<!-- app 主Div (flexbox) 直向配置-->
 		<div class="flex flex-col" id ="app">
-
-			<div class="flex wh-back grid2">
+			<!-- header -->
+			<div class="flex wh-back grid1">
 				<div class="grid4">
+					<!-- logo class -->
+					<div class="logo">
+						<img src="static/img/logo.png" ></img>
+					</div>
 				</div>
 				<div class="grid12">
 				</div>
 			</div>
 
-			<div class="grid12 ">
-				<div class="ui top attached segment" style="height: calc(100% - 56px);">
-					<p></p>
+			<!-- body -->
+			<div class="grid25">
+				<!--content segment-->
+				<div id="wrap" class="ui top np attached basic segment wrap">
+					<div class="grid1 scroller">
+						<!--content container-->
+						<ul class="uitems">
+							<li class="uitem" id="nowdiv">
+								<div class="ui content flex fcenter top attached bpd segment">
+									<div class="flex container">
+										<div class="grid4">
+											<img class="ui centered bordered image" src="./static/img/test.jpg">
+										</div>
+										<div class="grid3 lbpd">
+											<h1 class="ui header">
+												<i class="settings icon"></i>
+												<div class="content">
+													工业巨量数据病征分析
+													<div class="sub header">Mega Data Analytics</div>
+												</div>
+											</h1>
+											<p>
+											一裡顧本個動最教相留研一樹一神各，市健名如多風雄通方到局作參成什為樂成些價上加人？風得合小以土四了因裝。站一北生不術合即何何小他便使想產。現商底的、間陽情是們和辦常十被查作一水公來時這讓書教幾單機習帶你家言？不年題放。
+											</p>
+
+											<p>
+											員現學不多主灣，位現燈境懷；四親出河一這國眼突中兒色政度真做命以立們器息多說管我就說他送成：易至有性安中日，臺屋政市訴爸，我星山員子資形喜表事讀，位自孩廣裡或了今高回，地情中後音有地放何計房歌不然起速現，如分灣長展書美過這臺問當動；另到我得，少縣過位，狀難發知進益？的一政形車全很什你！化國小立下來身顯感爸麼成品目物。
+											</p>
+
+											<p>
+											作一史天時選作營專消同的頭推用少反？要的元開家教片內灣動？性毛運記來學體。
+											</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="uitem" id="nextdiv">
+							</li>
+						</ul>
+					</div>
 				</div>
-				<div class="ui bottom attached five item menu">
-					<a class="item">
+				<div class="ui bottom attached six item menu">
+					<a id="mainmenu" class="active item" onclick="go('xmlhttp/main.html','mainmenu');">
+						<h4 class="ui header">
+							首页
+							<div class="sub header">Main</div>
+						</h4>
+					</a>
+					<a id="aboutmenu" class="item" onclick="go('xmlhttp/about.html','aboutmenu');">
 						<h4 class="ui header">
 							关于我们
-						<div class="sub header">About</div>
+							<div class="sub header">About</div>
 						</h4>
 					</a>
-					<a class="item">
+					<a id="servicemenu" class="item" onclick="go('xmlhttp/service.html','servicemenu');">
 						<h4 class="ui header">
-						服务内容
-						<div class="sub header">Service</div>
+							服务内容
+							<div class="sub header">Service</div>
 						</h4>
 					</a>
-					<a class="item">
+					<a id="techmenu" class="item" onclick="go('xmlhttp/tech.html','techmenu');">
 						<h4 class="ui header">
-						技术概况
-						<div class="sub header">Technology</div>
+							技术概况
+							<div class="sub header">Technology</div>
 						</h4>
 					</a>
-					<a class="item">
+					<a id="solutionmenu" class="item" onclick="go('xmlhttp/sol.html','solutionmenu');">
 						<h4 class="ui header">
-						解决方案
-						<div class="sub header">Solution</div>
+							解决方案
+							<div class="sub header">Solution</div>
 						</h4>
 					</a>
-					<a class="item">
+					<a id="contactmenu" class="item" onclick="go('xmlhttp/contact.html','contactmenu');">
 						<h4 class="ui header">
-						联络我们
-						<div class="sub header">Contact</div>
+							联络我们
+							<div class="sub header">Contact</div>
 						</h4>
 					</a>
 				</div>
 			</div>
-
-			<div class="flex wh-back grid2">
+			<div class="flex bk-back grid1">
 				<div class="grid2">
 				</div>
-				<div class="grid14" style="align-self: flex-end; text-align:center;">
-					 &copy 华科智造数据科技有限公司 保留一切权利 2017。<br>
-					Copyright &copy 2017 Data Ring System Co.,Ltd. All rights reserved.
+				<div class="grid7">
+					邮件联系 | 在线留言 .
+				</div>
+				<div class="right grid7">
+					&copy 华科智造数据科技有限公司 保留一切权利 2017.京ICP备00000000号 
 				</div>
 				<div class="grid2">
 				</div>
 			</div>
-
 		</div>
+
 		<script src="https://unpkg.com/vue/dist/vue.js"></script>
-		<!--		<script src="static/js/main.js"></script> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		<script src="static/js/loadsite.js"></script>
+		<script>
+
+		</script>
+		<!--<script src="static/js/main.js"></script>-->
 	</body>
 </html>
